@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-7g@5kfavn91ct6vo7n!#v1f)997e8k-f5xpw#41f9238-*jq#b
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost',
-    'snsapp-84et.onrender.com'
+    # 'snsapp-84et.onrender.com'
+    'snsapp-gdo6.onrender.com'
 ]
 
 
