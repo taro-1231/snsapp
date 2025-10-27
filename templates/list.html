@@ -20,7 +20,7 @@
         <a class="btn btn-primary disabled" role="button">既読{{ item.read }}件</a>
       </div>   
   {% endfor %}
-  <a href="{% url 'logout' %}">logout</a>
+  <a class="btn btn-primary" href="{% url 'logout' %}">logout</a>
 </div>
 {% endif %}
 {% endblock content %}
